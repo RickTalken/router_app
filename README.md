@@ -1,5 +1,5 @@
 # Simple Router Example
-This code sample is a minimal, though fully functional, implementation to demonstrate building an application that routes messages to handlers in a pattern similar to Flask and later FastAPI. The route handlers are registered with the application through decorators. As messages arrive, the application dispatches them to the appropriate handler based on some selection criteria.
+This code sample is a minimal, though fully functional, implementation to demonstrate building an application that routes messages to handlers in a pattern similar to [Flask](https://flask.palletsprojects.com/en/stable/) and later [FastAPI](https://fastapi.tiangolo.com/). The route handlers are registered with the application through decorators. As messages arrive, the application dispatches them to the appropriate handler based on some selection criteria.
 
 I used this pattern to implement routing for a lightweight WebSocket API as well as an AWS Lambda function invoked by AWS triggers.
 
